@@ -1,0 +1,46 @@
+{
+  "description": "I²C Driver for Microchip's MCP4725 I²C DAC",
+  "nodes": [
+    {
+      "description": "The value from 0.0 to 1.0 representing the relationship between the DAC's input voltage and its output voltage.",
+      "id": "ByaO_vNIz",
+      "label": "VAL",
+      "position": {
+        "x": 204,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "boundValues": {
+        "__out__": 98
+      },
+      "description": "I²C address of the chip.\nFor Adafruit MCP4725A1 the address is 98 (default) or 99 (ADDR pin tied to VCC). For MCP4725A0 the address is 96 or 97. For MCP4725A2 the address is 100 or 101",
+      "id": "Hk3F_wNUM",
+      "label": "ADDR",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "If this value is true, the output value will also be written to the MCP4725's internal non-volatile memory, meaning that the DAC will retain the current voltage output after power-down or reset.",
+      "id": "HkFnOwVLG",
+      "label": "WE",
+      "position": {
+        "x": 102,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-boolean"
+    },
+    {
+      "id": "SyFAqOEUf",
+      "position": {
+        "x": 0,
+        "y": 102
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    }
+  ]
+}

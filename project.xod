@@ -1,0 +1,6 @@
+{
+  "description": "MCP4725 12-bit I²C DAC Driver library",
+  "license": "BSD",
+  "name": "mcp4725",
+  "version": "0.1.0"
+}
