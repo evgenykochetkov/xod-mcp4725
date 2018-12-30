@@ -1,0 +1,55 @@
+{
+  "links": [
+    {
+      "id": "ByJjAD4gX",
+      "input": {
+        "nodeId": "H1vQW0QeX",
+        "pinKey": "S18O0pXgm"
+      },
+      "output": {
+        "nodeId": "BypqRvExX",
+        "pinKey": "SyFLcqtJG"
+      }
+    },
+    {
+      "id": "SyQEZR7gm",
+      "input": {
+        "nodeId": "H1vQW0QeX",
+        "pinKey": "S1LxyCmeX"
+      },
+      "output": {
+        "nodeId": "rJzNZRXeX",
+        "pinKey": "HyvnPf3kQ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "BypqRvExX",
+      "position": {
+        "x": 340,
+        "y": 306
+      },
+      "type": "xod/core/tri-wave"
+    },
+    {
+      "boundLiterals": {
+        "S18O0pXgm": "0.5"
+      },
+      "id": "H1vQW0QeX",
+      "position": {
+        "x": 238,
+        "y": 408
+      },
+      "type": "@/mcp4725-i2c"
+    },
+    {
+      "id": "rJzNZRXeX",
+      "position": {
+        "x": 238,
+        "y": 306
+      },
+      "type": "xod/i2c/i2c"
+    }
+  ]
+}
